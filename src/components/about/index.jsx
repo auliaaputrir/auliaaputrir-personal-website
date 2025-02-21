@@ -23,7 +23,7 @@ export default function () {
                                 <TechStackItem logo={react_logo}>React JS</TechStackItem>
                             </div>
                             <div className='flex justify-center lg:justify-start'>
-                                <button className='px-4 py-2 bg-sky-500 flex font-semibold text-white mt-4 rounded-3xl hover:bg-sky-600'>
+                                <button className='px-4 py-2 bg-sky-500 flex font-semibold text-white mt-4 rounded-3xl hover:bg-sky-600' onClick={()=>window.open("https://drive.google.com/file/d/12NFjmEHDq0WYCRAnSV2AH9DULH2Y-QPW/view?usp=sharing", "_blank") }>
                                     ⬇️Check out my CV
                                 </button>
                             </div>

@@ -24,7 +24,7 @@ export default function Header() {
                                 <LinkMenu to='/'>About</LinkMenu>
                             </li>
                             <li>
-                                <LinkMenu to='/experience'>Experience & Education</LinkMenu>
+                                <LinkMenu to='/experience'>Experience</LinkMenu>
                             </li>
                             <li>
                                 <LinkMenu to='/portofolio'>Portofolio</LinkMenu>
@@ -43,7 +43,7 @@ export default function Header() {
                                     <LinkMenu to='/'>About</LinkMenu>
                                 </li>
                                 <li>
-                                    <LinkMenu to='/experience'>Experience & Education</LinkMenu>
+                                    <LinkMenu to='/experience'>Experience</LinkMenu>
                                 </li>
                                 <li>
                                     <LinkMenu to='/portofolio'>Portofolio</LinkMenu>

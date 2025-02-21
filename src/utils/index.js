@@ -5,7 +5,7 @@ export const getPortofolioData = () => ([
         description: 'A personal website showcasing projects, skills, and experience.',
         projectDate: "Februari 2025",
         imageURL: "/images/auliaaputrir.png",
-        link: '#'
+        link: 'https://github.com/auliaaputrir/auliaaputrir-personal-website'
     },
     {
         id: 2,
@@ -25,23 +25,6 @@ export const getPortofolioData = () => ([
     }
 ])
 
-export const getEducationData = () => ([
-    {
-        id: 1,
-        institution: "FGA Kominfo - Mitra Hacktiv8 x IBM",
-        course: "Web Development Program + React",
-        location: "Jakarta, Indonesia",
-        time: 'Agustus 2024 – Oktober 2024'
-    },
-    {
-        id: 2,
-        institution: "Universitas Muhammadiyah Surakarta",
-        course: "Bachelor of Informatics Engineering ",
-        location: "Surakarta, Indonesia",
-        timeline: '2018 – 2023'
-    },
-])
-
 export const getExperienceData = () => ([
     {
         id: 1,
@@ -54,7 +37,7 @@ export const getExperienceData = () => ([
             "Developed a final project, a news application using React, fetching data from The New York Times API."
         ],
         location: "Jakarta, Indonesia",
-        timeline: "Aug 2022 – Aug 2024"
+        timeline: "Aug 2024 – Oct 2024"
     },
     {
         id: 2,

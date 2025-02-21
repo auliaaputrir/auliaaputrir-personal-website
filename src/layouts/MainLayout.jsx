@@ -7,7 +7,7 @@ export default function MainLayout() {
         <>
             <div className="min-h-screen w-full subpixel-antialiased bg-white">
                 <Header />
-                <main className="relative lg:pb-5 lg:pb-20 py-10 lg:mx-24 mx-10 flex items-center">
+                <main className="lg:pb-5 lg:pb-20 py-10 lg:mx-24 mx-10 flex justify-center items-center">
                     <Outlet />
                 </main>
             </div>

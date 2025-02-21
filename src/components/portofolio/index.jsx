@@ -9,7 +9,7 @@ export default function Portofolio() {
         <>
             <section id="#portofolio" className="">
                 <h2 className="text-center lg:text-5xl text-3xl font-bold mb-8">My Portofolio</h2>
-                <div className="grid lg:grid-cols-3  justify-center gap-10">
+                <div className="grid lg:grid-cols-3 justify-center flex flex-col gap-10">
                     {
                         portofolios.map((portofolio)=>(
                             <PortofolioCard key={portofolios.id} {...portofolio}/>
